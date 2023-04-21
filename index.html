@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baccarat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Baccarat!</h1>
+		
+		
+<div class="rules-container">
+  <h3>Rules</h3>
+  <p>The objective of Baccarat is to bet on the hand that will have the highest value, with 9 being the highest possible value. In Baccarat, cards 2-9 are worth their face value, 10s and face cards (J, Q, K) are worth 0, and Aces are worth 1. If the value of a hand exceeds 9, then the value is adjusted by subtracting 10 from the total.</p>
+  <p>Players bet on whether the Player hand or the Banker hand will win, or if the result will be a Tie. The winning hand is the one that is closer to 9.</p>
+  <p><a href="#" id="expand-natural-rules">Learn about naturals</a></p> 
+  <p><a href="#" id="expand-third-card-rules">Learn about drawing a third card</a></p>
+  <div id="natural-rules" style="display:none;">
+    <p>A natural hand is when either the Player or the Banker is dealt a total of 8 or 9 from their first two cards. When a natural hand is dealt, the game is over and bets are paid out accordingly.</p>
+  </div>
+  <div id="third-card-rules" style="display:none;">
+    <p>The third card rule in baccarat is one of the ways that the dealer (or banker) has a slight house edge in the game.<p>
+    <p>When the Player or the Banker has a total of 8 or 9 from their first two cards, no further cards are drawn. If the Player's total is less than or equal to 5, the Player draws a third card. If the Player does not draw a third card, the Banker draws a third card if their total is less than or equal to 5. If the Player does draw a third card, the Banker draws a third card based on the following rules:</p>
+    <ul>
+      <li>If the Banker's total is 2 or less, the Banker draws a third card regardless of the Player's third card.</li>
+      <li>If the Banker's total is 3, the Banker draws a third card unless the Player's third card is an 8.</li>
+      <li>If the Banker's total is 4, the Banker draws a third card if the Player's third card is 2, 3, 4, 5, 6, 7.</li>
+      <li>If the Banker's total is 5, the Banker draws a third card if the Player's third card is 4, 5, 6, or 7.</li>
+      <li>If the Banker's total is 6, the Banker draws a third card if the Player's third card is 6 or 7.</li>
+      <li>If the Banker's total is 7 or higher, then the Banker does not draw a third card.</li>
+    </ul>
+  </div>
+</div>
+
+
+
+        
+        <div class="game-board">
+            <div class="player">
+                <h3>Player's Hand</h3>
+                <div id="player-hand" class="hand"></div>
+				<div id="player-total" class="total"></div>
+            </div>
+            <div class="banker">
+                <h3>Banker's Hand</h3>
+                <div id="banker-hand" class="hand"></div>
+				<div id="banker-total" class="total"></div>
+            </div>
+        </div>
+        <div class="scoreboard">
+            <div id="scoreboard-outcome"></div>
+            <div id="scoreboard-balance"></div>
+            <div id="scoreboard-status"></div>
+        </div>
+        <div class="bet-controls">
+            <label for="bet-amount">Bet Amount:</label>
+            <input type="number" id="bet-amount" min="1" step="1" value="1">
+            <label for="bet-outcome">Bet Outcome:</label>
+            <select id="bet-outcome">
+                <option value="player">Player</option>
+                <option value="banker">Banker</option>
+                <option value="tie">Tie</option>
+            </select>
+            <button id="place-bet" class="place-bet-btn">Place Bet</button>
+        </div>
+        <div class="game-status"></div>
+		
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

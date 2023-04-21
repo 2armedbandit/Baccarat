@@ -1,0 +1,159 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f5f5f5;
+}
+
+.game-container {
+background-color: white;
+max-width: 800px;
+max-height: 1200px;
+margin: 0 auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-shadow: 2px 2px 5px #ccc;
+}
+
+h1 {
+text-align: center;
+font-size: 2.5rem;
+margin-bottom: 10px;
+margin-top: 0px;
+}
+
+.rules-container {
+margin-bottom: 20px;
+}
+
+.rules-container h3 {
+font-size: 1.5rem;
+}
+
+.rules-container ul,
+.rules-container ol {
+margin-bottom: 10px;
+}
+
+.note {
+font-style: italic;
+font-size: 0.9rem;
+}
+
+.game-board {
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+
+.player,
+.banker {
+border: 1px solid #ccc;
+padding: 10px;
+width: 45%;
+border-radius: 5px;
+background-color: #f5f5f5;
+box-shadow: 2px 2px 5px #ccc;
+}
+
+.hand {
+  display: flex;
+  justify-content: center;
+  height: 220px;
+  position: relative; /* add this line */
+}
+
+.card {
+background-color: white;
+border: 1px solid #ccc;
+width: 85px;
+height: 120px;
+text-align: center;
+font-size: 1.5rem;
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+margin-right: 10px;
+box-shadow: 2px 2px 5px #ccc;
+}
+
+.card:nth-child(3) {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc(0% + 0px)) rotate(90deg); /* add this line */
+}
+
+
+
+.scoreboard {
+display: flex;
+justify-content: space-between;
+background-color: #f5f5f5;
+padding: 10px;
+border: 2px solid #ccc;
+border-radius: 10px;
+box-shadow: 2px 2px 5px #ccc;
+height: 25px;
+
+}
+
+.scoreboard div {
+font-size: 1.3rem;
+}
+
+.bet-controls {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.bet-controls label {
+font-size: 1.2rem;
+margin-right: 10px;
+}
+
+.bet-controls input[type="number"] {
+width: 60px;
+padding: 5px;
+margin-right: 10px;
+font-size: 1.2rem;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+.bet-controls select {
+padding: 5px;
+font-size: 1.2rem;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+.place-bet-btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 80px;
+  margin-bottom: 5px;
+}
+
+.place-bet-btn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}

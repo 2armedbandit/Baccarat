@@ -1,0 +1,77 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 4ABD-8270
+
+ Directory of C:\Users\thebo\OneDrive\Learning to Program\Baccrat\SVG-cards-1.3
+
+04/20/2023  06:12 PM    <DIR>          .
+04/20/2023  06:00 PM    <DIR>          ..
+04/20/2023  06:00 PM            15,307 10_of_clubs.svg
+04/20/2023  06:00 PM            17,492 10_of_diamonds.svg
+04/20/2023  06:00 PM            15,988 10_of_hearts.svg
+04/20/2023  06:00 PM            11,475 10_of_spades.svg
+04/20/2023  06:00 PM             8,621 2_of_clubs.svg
+04/20/2023  06:00 PM            11,852 2_of_diamonds.svg
+04/20/2023  06:00 PM            10,900 2_of_hearts.svg
+04/20/2023  06:00 PM             5,884 2_of_spades.svg
+04/20/2023  06:00 PM             9,264 3_of_clubs.svg
+04/20/2023  06:00 PM            12,122 3_of_diamonds.svg
+04/20/2023  06:00 PM            11,381 3_of_hearts.svg
+04/20/2023  06:00 PM             6,471 3_of_spades.svg
+04/20/2023  06:00 PM             9,912 4_of_clubs.svg
+04/20/2023  06:00 PM            12,702 4_of_diamonds.svg
+04/20/2023  06:00 PM            12,231 4_of_hearts.svg
+04/20/2023  06:00 PM             7,063 4_of_spades.svg
+04/20/2023  06:00 PM            10,557 5_of_clubs.svg
+04/20/2023  06:00 PM            13,294 5_of_diamonds.svg
+04/20/2023  06:00 PM            12,345 5_of_hearts.svg
+04/20/2023  06:00 PM             7,653 5_of_spades.svg
+04/20/2023  06:00 PM            11,196 6_of_clubs.svg
+04/20/2023  06:00 PM            13,880 6_of_diamonds.svg
+04/20/2023  06:00 PM            12,828 6_of_hearts.svg
+04/20/2023  06:00 PM             8,246 6_of_spades.svg
+04/20/2023  06:00 PM            11,839 7_of_clubs.svg
+04/20/2023  06:00 PM            14,471 7_of_diamonds.svg
+04/20/2023  06:00 PM            13,313 7_of_hearts.svg
+04/20/2023  06:00 PM             8,837 7_of_spades.svg
+04/20/2023  06:00 PM            12,486 8_of_clubs.svg
+04/20/2023  06:00 PM            15,058 8_of_diamonds.svg
+04/20/2023  06:00 PM            13,800 8_of_hearts.svg
+04/20/2023  06:00 PM             9,434 8_of_spades.svg
+04/20/2023  06:00 PM            13,775 9_of_clubs.svg
+04/20/2023  06:00 PM            15,692 9_of_diamonds.svg
+04/20/2023  06:00 PM            14,307 9_of_hearts.svg
+04/20/2023  06:00 PM            10,022 9_of_spades.svg
+04/20/2023  06:00 PM            11,382 ace_of_clubs.svg
+04/20/2023  06:00 PM            11,897 ace_of_diamonds.svg
+04/20/2023  06:00 PM            12,149 ace_of_hearts.svg
+04/20/2023  06:00 PM            24,279 ace_of_spades.svg
+04/20/2023  06:00 PM            11,808 ace_of_spades2.svg
+04/20/2023  06:00 PM            10,858 black_joker.svg
+04/20/2023  06:12 PM                70 directory_contents.txt
+04/20/2023  06:00 PM            11,384 jack_of_clubs.svg
+04/20/2023  06:00 PM           460,477 jack_of_clubs2.svg
+04/20/2023  06:00 PM            11,905 jack_of_diamonds.svg
+04/20/2023  06:00 PM           404,218 jack_of_diamonds2.svg
+04/20/2023  06:00 PM            12,161 jack_of_hearts.svg
+04/20/2023  06:00 PM           630,767 jack_of_hearts2.svg
+04/20/2023  06:00 PM            13,054 jack_of_spades.svg
+04/20/2023  06:00 PM           702,466 jack_of_spades2.svg
+04/20/2023  06:00 PM            11,384 king_of_clubs.svg
+04/20/2023  06:00 PM         1,135,499 king_of_clubs2.svg
+04/20/2023  06:00 PM            11,901 king_of_diamonds.svg
+04/20/2023  06:00 PM           665,644 king_of_diamonds2.svg
+04/20/2023  06:00 PM            12,154 king_of_hearts.svg
+04/20/2023  06:00 PM           775,176 king_of_hearts2.svg
+04/20/2023  06:00 PM            13,048 king_of_spades.svg
+04/20/2023  06:00 PM           410,382 king_of_spades2.svg
+04/20/2023  06:00 PM            11,384 queen_of_clubs.svg
+04/20/2023  06:00 PM         1,116,945 queen_of_clubs2.svg
+04/20/2023  06:00 PM            11,905 queen_of_diamonds.svg
+04/20/2023  06:00 PM           373,498 queen_of_diamonds2.svg
+04/20/2023  06:00 PM            12,161 queen_of_hearts.svg
+04/20/2023  06:00 PM           622,378 queen_of_hearts2.svg
+04/20/2023  06:00 PM            13,052 queen_of_spades.svg
+04/20/2023  06:00 PM           435,695 queen_of_spades2.svg
+04/20/2023  06:00 PM            11,216 red_joker.svg
+              68 File(s)      8,393,995 bytes
+               2 Dir(s)  982,992,904,192 bytes free

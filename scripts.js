@@ -4,13 +4,9 @@ class Card {
     this.rank = rank;
   }
 
-  get value() {
-    if (this.rank > 9) {
-      return 0;
-    } else {
-      return this.rank;
-    }
-  }
+get value() {
+  return this.rank > 9 ? 0 : this.rank;
+}
   
   getFileName() {
     let fileName = "";
@@ -36,6 +32,10 @@ class Card {
   }
 }
 
+const balanceElement = document.getElementById("scoreboard-balance");
+balanceElement.textContent = "Current Balance: $100"; // update the balance here
+
+
 function initGame() {
   // Add event listener for expanding/collapsing natural rules
   document.getElementById("expand-natural-rules").addEventListener("click", () => {
@@ -58,8 +58,10 @@ function initGame() {
     thirdCardRules.style.display = "none";
   });
 
-  // Rest of game initialization code goes here
+  // Add code to display current balance on page load
+	document.querySelector("#scoreboard-balance").textContent = "Balance: $100.00";
 }
+
 
 // Call initGame() when page loads
 window.addEventListener("load", initGame);
@@ -240,12 +242,12 @@ document.getElementById("place-bet").addEventListener("click", async () => {
       gameStatusDiv.textContent = `The round outcome was ${roundOutcome}.`;
     } else {
       currentBalance -= betAmount;
-      document.getElementById("scoreboard-outcome").textContent = `You lost $${betAmount.toFixed(2)}.`;
+      document.getElementById("scoreboard-outcome").textContent = `You lost $${betAmount.toFixed(2)}`.replace(/\.0+$/, "");
       gameStatusDiv.textContent = `The round outcome was ${roundOutcome}.`;
     }
 
     currentBalance = parseFloat(currentBalance.toFixed(2));
-    document.getElementById("scoreboard-balance").textContent = `Balance: $${currentBalance}`;
+    document.getElementById("scoreboard-balance").textContent = `Balance: $${currentBalance.toFixed(2)}`;
 
     // Enable the button and set the game in progress flag to false
     document.getElementById("place-bet").disabled = false;
@@ -254,25 +256,6 @@ document.getElementById("place-bet").addEventListener("click", async () => {
     alert("Invalid bet amount.");
   }
   
-  document.getElementById("expand-natural-rules").addEventListener("click", () => {
-  const naturalRules = document.getElementById("natural-rules");
-  naturalRules.style.display = naturalRules.style.display === "block" ? "none" : "block";
-});
-
-document.getElementById("expand-third-card-rules").addEventListener("click", () => {
-  const thirdCardRules = document.getElementById("third-card-rules");
-  thirdCardRules.style.display = thirdCardRules.style.display === "block" ? "none" : "block";
-});
-
-document.getElementById("close-rules").addEventListener("click", () => {
-  const naturalRules = document.getElementById("natural-rules");
-  naturalRules.style.display = "none";
-
-  const thirdCardRules = document.getElementById("third-card-rules");
-  thirdCardRules.style.display = "none";
-});
-
-
 
 
 });
